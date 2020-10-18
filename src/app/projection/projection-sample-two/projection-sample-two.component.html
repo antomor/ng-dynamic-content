@@ -1,0 +1,12 @@
+<h2>Projection Sample 2</h2>
+<p> In this case the container will place two different elements side by side, but it doesn't know what content will
+  be rendered</p>
+
+<div class="container">
+  <div class="child left">
+    <ng-content select=".left"></ng-content>
+  </div>
+  <div class="child right">
+    <ng-content select=".right"></ng-content>
+  </div>
+</div>

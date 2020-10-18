@@ -1,0 +1,15 @@
+<h2>Dynamic Template Sample 1</h2>
+<div>
+  <label class="container">Enable or disable the condition to change the template
+    <input type="checkbox" name="condition" [(ngModel)]="condition">
+    <span class="checkmark"></span>
+  </label>
+
+</div>
+<div *ngIf="condition; else defaultContent">
+  Condition is <span style="color: green;">True</span>
+</div>
+
+<ng-template #defaultContent>
+  <div>Condition is <span style="color: red;">False</span></div>
+</ng-template>

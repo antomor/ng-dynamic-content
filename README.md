@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
+## Content
+This project includes some examples about the mechanisms available in Angular to change dynamically the content rendered by a component.
+All these mechanisms will be describe in a related post article. The techniques described are:
+
+- content projection
+- templates
+- dynamic component creation
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
